@@ -2,9 +2,13 @@
   "name": "Stories For Erin",
   "version": "0.1",
   "description": "Saves and e-mails a list of articles to the user.",
+  "permissions": ["declarativeContent"],
   "background": {
-    "scripts": ["background_script.js"],
+    "scripts": ["background.js"],
     "persistent": false
   },
-  "permissions": []
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
 }
