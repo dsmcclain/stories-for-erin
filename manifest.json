@@ -1,0 +1,10 @@
+{
+  "name": "Stories For Erin",
+  "version": "0.1",
+  "description": "Saves and e-mails a list of articles to the user.",
+  "background": {
+    "scripts": ["background_script.js"],
+    "persistent": false
+  },
+  "permissions": []
+}
