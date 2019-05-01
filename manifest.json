@@ -4,7 +4,8 @@
   "description": "Saves and e-mails a list of articles to the user.",
   "permissions": [
     "declarativeContent",
-    "tabs"],
+    "tabs",
+    "storage"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
